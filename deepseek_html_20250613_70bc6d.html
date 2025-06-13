@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REEL BUNDLE WALA - 130K+ Viral Reels (₹28 Only!)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        /* ==== HYPNOTIC YELLOW THEME ==== */
+        :root {
+            --primary: #FFA000;
+            --secondary: #FFC107;
+            --dark: #FF6D00;
+            --light: #FFF9C4;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: radial-gradient(circle, #fffde7, #fff9c4);
+            color: #333;
+            overflow-x: hidden;
+        }
+        
+        /* === GLOWING HEADER === */
+        header {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: #000;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(255, 160, 0, 0.4);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            animation: glow 2s infinite alternate;
+        }
+        
+        @keyframes glow {
+            from { box-shadow: 0 0 10px var(--primary); }
+            to { box-shadow: 0 0 20px var(--secondary); }
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        /* === PULSING HERO === */
+        .hero {
+            padding: 150px 0 60px;
+            text-align: center;
+            background: linear-gradient(rgba(255, 246, 169, 0.9), rgba(255, 246, 169, 0.9)), 
+                        url('https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80') center/cover;
+            position: relative;
+            min-height: 100vh;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 0 15px;
+        }
+        
+        .hero h1 {
+            font-size: clamp(32px, 6vw, 52px);
+            color: #d50000;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 0 #fff;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        /* === EXPLODING PRICE TAG === */
+        .price-tag {
+            background: linear-gradient(45deg, #ff1744, #d50000);
+            color: white;
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-size: clamp(24px, 5vw, 32px);
+            font-weight: bold;
+            margin: 25px 0;
+            box-shadow: 0 8px 15px rgba(213, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .price-tag::after {
+            content: 'HOT DEAL!';
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: #000;
+            color: #fff;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            transform: rotate(15deg);
+        }
+        
+        /* === SPARK BUTTON === */
+        .whatsapp-btn {
+            background: var(--whatsapp);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: clamp(18px, 4vw, 24px);
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin: 25px 0;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.5);
+            position: relative;
+            overflow: hidden;
+            border: none;
+            cursor: pointer;
+            animation: shake 2s infinite;
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+            20%, 40%, 60%, 80% { transform: translateX(5px); }
+        }
+        
+        .whatsapp-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 25px rgba(37, 211, 102, 0.7);
+        }
+        
+        .whatsapp-btn:active {
+            transform: scale(0.95);
+        }
+        
+        .whatsapp-btn::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,0.3);
+            top: 0;
+            left: -100%;
+            transform: skewX(-30deg);
+            transition: 0.6s;
+        }
+        
+        .whatsapp-btn:hover::before {
+            left: 120%;
+        }
+        
+        /* === COUNTDOWN TIMER === */
+        .countdown {
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 24px;
+            margin: 20px auto;
+            max-width: 300px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .countdown span {
+            background: #d50000;
+            padding: 5px 10px;
+            border-radius: 5px;
+            min-width: 40px;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        /* === WELCOME POPUP === */
+        .welcome-popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            background: linear-gradient(135deg, var(--primary), var(--dark));
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            z-index: 2000;
+            text-align: center;
+            max-width: 90%;
+            width: 400px;
+            animation: popupIn 0.5s forwards;
+            display: none;
+        }
+        
+        @keyframes popupIn {
+            to { transform: translate(-50%, -50%) scale(1); }
+        }
+        
+        .popup-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 10;
+            background: rgba(0,0,0,0.3);
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        
+        /* === TESTIMONIAL SLIDER === */
+        .testimonials {
+            padding: 60px 15px;
+            background: var(--light);
+        }
+        
+        .testimonial-slider {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 30px;
+            padding: 20px 0;
+            scrollbar-width: none;
+        }
+        
+        .testimonial-slider::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .review-card {
+            min-width: 280px;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            scroll-snap-align: start;
+            transition: transform 0.3s;
+        }
+        
+        .review-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .review-card img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        
+        /* === CONFETTI EFFECT === */
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background: #f00;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 1000;
+            animation: confettiFall 3s linear forwards;
+        }
+        
+        @keyframes confettiFall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
+        
+        /* === POPPER EFFECT === */
+        .popper {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #f00;
+            border-radius: 50%;
+            animation: popper 1s ease-out forwards;
+            z-index: 1000;
+        }
+        
+        @keyframes popper {
+            0% { transform: translate(0, 0) scale(1); opacity: 1; }
+            100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
+        }
+        
+        /* === RESPONSIVE FIXES === */
+        @media (max-width: 768px) {
+            .hero {
+                padding-top: 120px;
+            }
+            
+            .logo {
+                font-size: 24px;
+            }
+            
+            .welcome-popup {
+                width: 90%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- === WELCOME POPUP === -->
+    <div class="welcome-popup" id="welcomePopup">
+        <span class="popup-close" onclick="closePopup()">×</span>
+        <h2>🤑 EXCLUSIVE OFFER! 🎉</h2>
+        <p>Get <strong>130K+ Viral Reels</strong> for just ₹28 TODAY ONLY!</p>
+        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+             style="max-width: 100%; border-radius: 10px; margin: 15px 0;">
+        <div class="countdown" id="popupCountdown">
+            <span id="popupMinutes">05</span>:<span id="popupSeconds">00</span>
+        </div>
+        <a href="https://wa.me/918826209201?text=I%20WANT%20TO%20BUY%20BUNDLE%20PLEASE%20SEND%20THE%20QR%20CODE%20ASAAP" 
+           class="whatsapp-btn" onclick="createConfetti()">
+           <i class="fab fa-whatsapp"></i> GRAB NOW!
+        </a>
+    </div>
+
+    <!-- === GLOWING HEADER === -->
+    <header>
+        <div class="container">
+            <div class="logo">REEL BUNDLE WALA</div>
+        </div>
+    </header>
+
+    <!-- === PULSING HERO === -->
+    <section class="hero">
+        <div class="hero-content container">
+            <h1>130,000+ <span style="color: var(--dark);">VIRAL REELS</span> BUNDLE!</h1>
+            <p style="font-size: clamp(18px, 4vw, 22px); margin-bottom: 10px;">Your Shortcut to <strong>10K+ Views Per Reel!</strong></p>
+            
+            <div class="price-tag">
+                <span class="old-price">₹199</span> 
+                <span>ONLY ₹28!</span>
+            </div>
+            
+            <div class="countdown" id="mainCountdown">
+                Offer Ends In: <span id="minutes">05</span>:<span id="seconds">00</span>
+            </div>
+            
+            <p style="font-size: clamp(16px, 3vw, 18px); margin-bottom: 20px;">
+                <i class="fas fa-bolt" style="color: var(--dark);"></i> <strong>Instant Delivery</strong> | 
+                <i class="fas fa-headset" style="color: var(--dark);"></i> <strong>24/7 Support</strong>
+            </p>
+            
+            <!-- === EXPLODING WHATSAPP BUTTON === -->
+            <a href="https://wa.me/918826209201?text=I%20WANT%20TO%20BUY%20BUNDLE%20PLEASE%20SEND%20THE%20QR%20CODE%20ASAAP" 
+               class="whatsapp-btn" id="buyNowBtn">
+               <i class="fab fa-whatsapp"></i> BUY NOW & GET SPARKS!
+            </a>
+            
+            <p style="margin-top: 30px; font-size: clamp(14px, 3vw, 16px);">
+                <i class="fas fa-shield-alt" style="color: var(--dark);"></i> <strong>100% Trusted by 5,000+ Customers</strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- === TESTIMONIAL SLIDER === -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px; font-size: clamp(28px, 6vw, 36px); color: var(--dark);">💬 REAL BUYERS, REAL RESULTS!</h2>
+            
+            <div class="testimonial-slider">
+                <div class="review-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Buyer">
+                        <div>
+                            <h3 style="color: var(--dark);">Priya Sharma</h3>
+                            <p style="color: #777; font-size: 14px;">Mumbai | Fashion Influencer</p>
+                        </div>
+                    </div>
+                    <p style="font-style: italic; margin-bottom: 15px;">"From 1K to 50K followers in 2 months! This bundle is magic. Worth every rupee!"</p>
+                    <div style="color: var(--secondary); font-size: 14px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Buyer">
+                        <div>
+                            <h3 style="color: var(--dark);">Rahul Patel</h3>
+                            <p style="color: #777; font-size: 14px;">Delhi | Business Owner</p>
+                        </div>
+                    </div>
+                    <p style="font-style: italic; margin-bottom: 15px;">"My small business exploded after using these reels. Got 200+ orders in first week!"</p>
+                    <div style="color: var(--secondary); font-size: 14px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Buyer">
+                        <div>
+                            <h3 style="color: var(--dark);">Neha Gupta</h3>
+                            <p style="color: #777; font-size: 14px;">Bangalore | Content Creator</p>
+                        </div>
+                    </div>
+                    <p style="font-style: italic; margin-bottom: 15px;">"Bought for ₹28, earned ₹50K+ from brand deals. Best investment ever!"</p>
+                    <div style="color: var(--secondary); font-size: 14px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === FINAL CTA === -->
+    <section style="padding: 60px 15px; text-align: center; background: linear-gradient(135deg, var(--primary), var(--dark)); color: white;">
+        <div class="container">
+            <h2 style="font-size: clamp(28px, 6vw, 36px); margin-bottom: 20px;">🚀 READY TO GO VIRAL?</h2>
+            <p style="font-size: clamp(16px, 4vw, 20px); margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Your competitors are already using this bundle. Don't get left behind!
+            </p>
+            
+            <div class="countdown" id="finalCountdown">
+                Hurry! <span id="finalMinutes">05</span>:<span id="finalSeconds">00</span> Left!
+            </div>
+            
+            <a href="https://wa.me/918826209201?text=I%20WANT%20TO%20BUY%20BUNDLE%20PLEASE%20SEND%20THE%20QR%20CODE%20ASAAP" 
+               class="whatsapp-btn" style="background: white; color: var(--dark);" id="finalBtn">
+               <i class="fab fa-whatsapp" style="color: var(--whatsapp);"></i> CLICK TO BUY NOW (₹28 ONLY!)
+            </a>
+        </div>
+    </section>
+
+    <!-- === FOOTER === -->
+    <footer style="background: #000; color: #aaa; text-align: center; padding: 30px 15px;">
+        <div class="container">
+            <p style="margin-bottom: 15px; font-size: 14px;">© 2024 REEL BUNDLE WALA | All Rights Reserved</p>
+            <p style="font-size: 12px;">Instant delivery via WhatsApp after payment confirmation</p>
+        </div>
+    </footer>
+
+    <!-- === JAVASCRIPT MAGIC === -->
+    <script>
+        // Welcome Popup with popper effect
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                const popup = document.getElementById('welcomePopup');
+                popup.style.display = 'block';
+                createPoppers();
+            }, 1000);
+            
+            startCountdown();
+        });
+        
+        function closePopup() {
+            document.getElementById('welcomePopup').style.display = 'none';
+            createConfetti();
+        }
+        
+        // Countdown Timer (5 minutes)
+        function startCountdown() {
+            let minutes = 5;
+            let seconds = 0;
+            
+            const countdown = setInterval(() => {
+                if (seconds === 0) {
+                    if (minutes === 0) {
+                        clearInterval(countdown);
+                        return;
+                    }
+                    minutes--;
+                    seconds = 59;
+                } else {
+                    seconds--;
+                }
+                
+                // Update all countdown displays
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+                document.getElementById('popupMinutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('popupSeconds').textContent = String(seconds).padStart(2, '0');
+                document.getElementById('finalMinutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('finalSeconds').textContent = String(seconds).padStart(2, '0');
+            }, 1000);
+        }
+        
+        // Spark Effect on Button Click
+        const buttons = document.querySelectorAll('.whatsapp-btn');
+        buttons.forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                // Create sparks
+                for(let i = 0; i < 20; i++) {
+                    const spark = document.createElement('div');
+                    spark.classList.add('spark');
+                    spark.style.left = e.clientX + 'px';
+                    spark.style.top = e.clientY + 'px';
+                    spark.style.background = `hsl(${Math.random() * 60 + 30}, 100%, 50%)`;
+                    document.body.appendChild(spark);
+                    
+                    // Remove spark after animation
+                    setTimeout(() => {
+                        spark.remove();
+                    }, 500);
+                }
+            });
+        });
+        
+        // Confetti Effect
+        function createConfetti() {
+            for(let i = 0; i < 100; i++) {
+                const confetti = document.createElement('div');
+                confetti.classList.add('confetti');
+                confetti.style.left = Math.random() * window.innerWidth + 'px';
+                confetti.style.background = `hsl(${Math.random() * 360}, 100%, 50%)`;
+                confetti.style.width = Math.random() * 10 + 5 + 'px';
+                confetti.style.height = Math.random() * 10 + 5 + 'px';
+                document.body.appendChild(confetti);
+                
+                // Remove confetti after animation
+                setTimeout(() => {
+                    confetti.remove();
+                }, 3000);
+            }
+        }
+        
+        // Popper Effect
+        function createPoppers() {
+            for(let i = 0; i < 30; i++) {
+                const popper = document.createElement('div');
+                popper.classList.add('popper');
+                popper.style.left = Math.random() * window.innerWidth + 'px';
+                popper.style.top = Math.random() * window.innerHeight + 'px';
+                popper.style.background = `hsl(${Math.random() * 360}, 100%, 50%)`;
+                popper.style.setProperty('--tx', `${Math.random() * 200 - 100}px`);
+                popper.style.setProperty('--ty', `${Math.random() * 200 - 100}px`);
+                document.body.appendChild(popper);
+                
+                // Remove popper after animation
+                setTimeout(() => {
+                    popper.remove();
+                }, 1000);
+            }
+        }
+        
+        // Auto-scroll testimonials
+        const slider = document.querySelector('.testimonial-slider');
+        if (slider) {
+            let scrollAmount = 0;
+            setInterval(() => {
+                scrollAmount += 1;
+                if(scrollAmount >= slider.scrollWidth / 2) {
+                    scrollAmount = 0;
+                }
+                slider.scrollTo({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            }, 50);
+        }
+    </script>
+</body>
+</html>
